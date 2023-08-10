@@ -1,0 +1,106 @@
+*margin{
+    0
+}
+
+
+
+/* header */
+.header-title{
+/* border: 2px solid black; */
+
+display: flex; width: 100%;
+}
+.header-title h1{
+color: #000;
+font-size: 36px;
+font-weight: 700;
+letter-spacing: -1.62px;
+margin: 100px 0px 0px 150px;
+padding-top: 40px;
+    /* border: 2px solid black; */
+}
+.head-description{
+/* border: 2px solid black; */
+width: 50%;
+margin: 100px 50px 0px 200px;
+}
+.head-description h3{
+color: #000;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+text-transform: uppercase;
+padding-left: 125px;
+}
+
+.head-description p{
+color: #000;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+padding-right: 125px;
+padding-left: 125px;
+}
+
+/* main */
+
+.main{
+border: 2px solid black;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    margin-top:50px;
+    padding-left: 60px;
+    
+}
+
+.main img{
+    width: 300px;
+    height: 500px;
+}
+.main article:nth-child(2){
+    transform: translateY(20%);
+
+}
+.main article:nth-child(5){
+  transform: translateY(20%);
+}
+.main article{
+    position: relative;
+}
+
+article p{
+    color: black;
+    font-weight: 800;
+    position: absolute;
+    transform: rotate(90deg);
+    text-transform: uppercase;
+  
+}
+
+#para-1{
+top: 55px;
+right: -15px;
+}
+#para-2{
+ top: 40px;
+right: -5px;
+}
+#para-3{
+ top: 30px;
+ right: 10px;
+}
+#para-4{
+top: 35px;
+ right: 0px;
+}
+
+#para-5{
+  top: 30px;
+  right: 5px;
+    }
+#para-6{
+  top: 30px;
+ right: 5px;
+}
