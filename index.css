@@ -1,6 +1,4 @@
-*margin{
-    0
-}
+
 
 
 
@@ -76,8 +74,16 @@ article p{
     position: absolute;
     transform: rotate(90deg);
     text-transform: uppercase;
-  
-}
+  }
+
+/*কিভাবে paragraph গুলো একটা class এ কাজ করা যাবে?
+বার বার id না দিয়ে কিভাবে করা যায় একটু দেখ।
+
+How can I solve the paragraph problem using only one class 
+not by using many id's.
+please check.
+*/
+
 
 #para-1{
 top: 55px;
@@ -103,4 +109,101 @@ top: 35px;
 #para-6{
   top: 30px;
  right: 5px;
+}
+
+
+@media screen and (max-width: 576px) {
+  
+
+
+.header-title{
+   /* border: 2px solid black;  */
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  width: 100%;
+  margin-left: 0;
+}
+.header{
+    /* border: 2px solid black; */
+      width: 100%;
+}
+.header h1{
+  margin: 0;
+}
+
+.head-description{
+  /* border: 2px solid black; */
+  padding: 20px 20px 0px 0px;
+  margin-left: 0;
+  margin-top: 0;
+  width: 100%;
+
+}
+.head-description h3{
+  padding-left: 0px;
+  
+}
+.head-description p{
+  margin-bottom: 0;
+  padding-left: 0px;
+}
+
+.main{
+/* border: 2px solid black; */
+
+  display: grid; 
+  grid-template-columns: repeat(2,1fr);
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  gap:1rem;
+  
+}
+ .main  img{
+  height: 350px;
+  width: 90%;
+  object-fit: cover;
+  
+}
+.main article{
+  position: relative;
+}
+ .main  article:nth-child(6){
+  top:20%;
+} 
+ .main article:nth-child(5){
+ transform: translateY(0%);
+} 
+ .main article:nth-child(4){
+ transform: translateY(20%);
+} 
+article h3{
+  margin-top: 5px;
+}
+article p{
+  color: black;
+  font-weight: 800;
+  position: absolute;
+  transform: rotate(90deg);
+  text-transform: uppercase;
+}
+#para-2{
+  right: -45px;
+}
+#para-3{
+  right: -30px;
+}
+#para-1{
+  right: -55px;
+}
+#para-4{
+  right: -40px;
+}
+#para-5{
+right: -35px;
+}
+#para-6{
+  right: -35px;
+}
+
 }
