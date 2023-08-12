@@ -57,7 +57,7 @@ padding-left: 125px;
 .main img{
     width: 300px;
     height: 500px;
-        flex-shrink: 0;
+    flex-shrink: 0;
 }
 .main article:nth-child(2){
     transform: translateY(20%);
@@ -166,7 +166,7 @@ top: 35px;
   height: 350px;
   width: 90%;
   object-fit: cover;
-      flex-shrink: 0;
+  flex-shrink: 0;
   
 }
 .main article{
