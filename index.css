@@ -74,6 +74,7 @@ article p{
     position: absolute;
     transform: rotate(90deg);
     text-transform: uppercase;
+    white-space:nowrap;
   }
 
 /*কিভাবে paragraph গুলো একটা class এ কাজ করা যাবে?
